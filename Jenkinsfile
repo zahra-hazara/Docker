@@ -5,7 +5,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/zahra-hazara/Docker.git'
+                git 'https://github.com/zahra-hazara/Docker_assignment'
+
             }
         }
 
